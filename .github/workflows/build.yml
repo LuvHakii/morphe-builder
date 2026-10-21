@@ -63,6 +63,14 @@ jobs:
           echo "${DELIM}" >> "$GITHUB_OUTPUT"
           cp -f build.md build.tmp
       
+      - name: Build zygisk-detach with detach.txt
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh release download --repo j-hc/zygisk-detach -p 'zygisk-detach-*.zip' -D build
+          printf '%s\n' com.google.android.youtube com.google.android.apps.youtube.music com.reddit.frontpage > detach.txt
+          zip -j build/zygisk-detach-*.zip detach.txt
+
       - name: Upload release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
