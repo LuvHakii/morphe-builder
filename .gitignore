@@ -1,0 +1,10 @@
+*.apk
+*.zip
+/temp
+/build
+/logs
+build.md
+cmpr
+*-temporary-files
+test*
+*_test*
