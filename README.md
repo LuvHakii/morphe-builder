@@ -7,7 +7,7 @@
 Builds [KernelSU](https://github.com/tiann/KernelSU) modules with [Morphe](https://github.com/MorpheApp) patches for YouTube, YouTube Music and Reddit.
 
 Flash the ZIPs from the [releases page](https://github.com/sixstrings/morphe-builder/releases/latest).
-Use [zygisk-detach](https://github.com/j-hc/zygisk-detach) to detach the apps from the Play Store.
+Flash the bundled `zygisk-detach-*.zip` once to detach the apps from the Play Store.
 
 ## Building locally
 ```bash
