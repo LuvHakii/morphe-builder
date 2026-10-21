@@ -2,8 +2,9 @@
 *.zip
 /temp
 /build
-test*
 /logs
 build.md
 cmpr
 *-temporary-files
+test*
+*_test*

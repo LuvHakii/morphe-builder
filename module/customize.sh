@@ -6,14 +6,8 @@ if [ -n "$MODULE_ARCH" ] && [ "$MODULE_ARCH" != "$ARCH" ]; then
 Your device: $ARCH
 Module: $MODULE_ARCH"
 fi
-if [ "$ARCH" = "arm" ]; then
-	ARCH_LIB=armeabi-v7a
-elif [ "$ARCH" = "arm64" ]; then
+if [ "$ARCH" = "arm64" ]; then
 	ARCH_LIB=arm64-v8a
-elif [ "$ARCH" = "x86" ]; then
-	ARCH_LIB=x86
-elif [ "$ARCH" = "x64" ]; then
-	ARCH_LIB=x86_64
 else abort "ERROR: unreachable: ${ARCH}"; fi
 RVPATH=/data/adb/rvpnm/${MODPATH##*/}.apk
 
