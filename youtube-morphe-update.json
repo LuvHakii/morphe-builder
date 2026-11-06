@@ -1,6 +1,6 @@
 {
-  "version": "21.30.216 (patches 2.0.0.mpp)",
-  "versionCode": 3,
-  "zipUrl": "https://github.com/LuvHakii/morphe-builder/releases/download/3/youtube-morphe-module-v21.30.216-all.zip",
+  "version": "21.30.216 (patches 2.1.0.mpp)",
+  "versionCode": 4,
+  "zipUrl": "https://github.com/LuvHakii/morphe-builder/releases/download/4/youtube-morphe-module-v21.30.216-all.zip",
   "changelog": "https://raw.githubusercontent.com/LuvHakii/morphe-builder/update/build.md"
 }
